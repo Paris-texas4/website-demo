@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="../2025 new project/css/index-styling.css">
+    <script src = "../2025 new project/scripts/index.js" defer></script> <!--
+    defer checks if the javascript has loaded after the Html has done so -->
+</head>
+<body id = "body">
+    <div class="wrapper">
+        <form id = "form" method="GET" action="../2025 new project/verify.html">
+            <h3>Sign up</h3>
+            <div class = form-body>
+                <div class="small-container">
+                    <div class="inner-cont">
+                        <label for="">email</label>
+                        <input id = "email" type="text" placeholder="example@gmail.com">
+                    </div>
+                    
+                    <div class="inner-cont">
+                        <label for="">password</label>
+                        <input id = "password" type="password" placeholder="8 - 50 characters">
+                    </div>
+                </div>
+                
+                <div class="small-container">
+                    <div class="inner-cont">
+                        <label for="">re-tpye password</label>
+                        <input id = "passwordRetype" type="password" placeholder="8 - 50 characters">
+                    </div>
+                    
+                    <div class="inner-cont">
+                        <label for="">region / country</label>
+                        <select name="" id="select">
+                            <option id = "regionOptions" value="">South Africa</option>
+                            <option id = "regionOptions" value="">Nigeria</option>
+                            <option id = "regionOptions" value="">Lesotho</option>
+                            <option id = "regionOptions" value="">Botswana</option>
+                            <option id = "regionOptions" value="">United States</option>
+                            <option id = "regionOptions" value="">United Kingdom</option>
+                            <option id = "regionOptions" value="">Sweden</option>
+                            <option id = "regionOptions" value="">China</option>
+                        </select>
+                    </div>
+                
+                </div>
+                
+                <button type = "submit" id="submitBtn">submit</button>
+                <br>
+                <span id = "errorMsg" color="red"></span>
+                <div class = "form-footer">
+                    <input type = "checkbox" id = "checkbox">
+                    <p>i hereby agree to give up some sort of your personal information</p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    
+
+    <footer>
+        <button id="dark-mode">Dark Mode</button>
+    </footer>
+</body>
+</html>
